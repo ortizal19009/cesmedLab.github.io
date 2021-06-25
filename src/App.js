@@ -7,7 +7,7 @@ import './style.css';
 function App() {
   return (
     <div className="App">
-      <div class="container" >
+      <div class="container-fluid" >
         <header className="App-header">
           <div class="row">
             <img src ={logo} class="col-3"></img>
@@ -438,7 +438,7 @@ function App() {
                     <label>
                         <input type="checkbox"></input>
                         IgG
-                      </label>
+                    </label>
                     <label>
                         <input type="checkbox"></input>
                         IgG
@@ -469,6 +469,118 @@ function App() {
               </div>
 
             </div>
+          </section>
+          <section class="row">
+            <div class="col">
+              <div class="row">
+                <h3>PRUEBAS METABÓLICAS</h3>
+                <label>
+                  <input type="checkbox"></input>
+                  Peptido C
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  HbAlc
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Insulina
+                </label>
+              </div>
+              <div class="row">
+                <h3>MARCADORES TUMORALES</h3>
+                <label>
+                  <input type="checkbox"></input>
+                  PSA Total
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  PSA Libre
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  CA 125
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  AFP
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  CEA
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Tiroglobulina
+                </label>
+              </div>
+
+            </div>
+            <div class="col">
+              <div class="row">
+                <h3>ORINA</h3>
+                <label>
+                  <input type="checkbox"></input>
+                  Elemental
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Gran de Gota fresca
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Proteina
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Proteina en 24 horas
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Microalbuminora
+                </label>
+
+              </div>
+
+            </div>
+            <div class="col">
+              <div class="row">
+                <h3>HECES</h3>
+                <label>
+                  <input type="checkbox"></input>
+                  Coproparasitario
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Coproparasitario seriado
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Inv. De Polimorfonudeares
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Sangre Oculata
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Rotavirus
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Adenovirus
+                </label>
+                <label>
+                  <input type="checkbox"></input>
+                  Azúcares reductores
+                  
+                </label>
+
+              </div>
+
+            </div>
+
+
           </section>
           <section class="row">
             <input type="submit" value="Enviar" class="btnSubmit btn btn-primary"></input>
