@@ -1,0 +1,28 @@
+img{
+    height: 150px;
+    width: 150px;
+}
+header ,main,.formExams {
+    border:2px black solid;
+    border-radius: 20px;
+    margin-top:1em;
+}
+header .title{
+    text-align: center;
+}
+main, section{
+    padding:2em;
+}
+main>div>form>label{
+    padding: 20px ;
+    text-align: center;
+}
+main>div>form>label>input{
+    padding-left: 5px;
+    
+}
+.btnSubmit{
+    height:50px;
+    width: 80px;
+}
+
